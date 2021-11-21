@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: rgb(255, 214, 167);
+  background: linear-gradient(132deg, rgba(255, 214, 167, 1) 0%, rgba(221, 135, 255, 1) 40%, rgba(255, 153, 102, 1) 73%);
+  background-repeat: no-repeat;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: auto;
+}
+
+.food-item {
+  border: 5px dashed black;
+  width: 25%;
+  margin: 0.2rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.food-img {
+  font-size: 2.5rem;
+  padding: 1rem;
+  border-bottom: 1px solid black;
+}
+
+.food-name {
+  padding: 0.4rem;
+  font-weight: 500;
+}
