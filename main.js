@@ -7,6 +7,6 @@ foodStock.forEach((food) => {
   foodContainer.innerHTML += `<div class="food-item">  
     <p class="food-img">${food.img}</p>
     <p class="food-name">${food.name}</p>
-    <p class="food-price">${food.price}</p>
+    <p class="food-price">£${food.price}</p>
   </div>`;
 });

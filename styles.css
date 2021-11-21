@@ -46,3 +46,7 @@ main {
   padding: 0.4rem;
   font-weight: 500;
 }
+
+.food-price {
+  font-weight: 700;
+}
